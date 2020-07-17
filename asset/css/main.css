@@ -114,14 +114,14 @@ h1{
     min-height: 32px;
     color:black;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     margin-left: 30px;
     font-family: "Roboto Slab", "Times New Roman", serif;
     display: block;
 }
 h3{
   margin-top:60px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   min-height: 32px;
   color:black;
   font-weight: bold;
@@ -131,8 +131,36 @@ h3{
 h5{
   font-family: "Roboto Slab", "Times New Roman", serif;
   margin-bottom: 60px;
+  margin-top: 35px;
  
+}
+h2{
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: bold;
+  margin-top:30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+  
+    display: block;
+}
+.col-md-4 ,.col-sm-2{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
 
+
+}
+.col-md-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
 }
 .img-desing{
  box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
@@ -144,5 +172,32 @@ h5{
 }
 p{
   font-family: "Roboto Slab", "Times New Roman", serif;
+  text-align: center;
+
+}
+
+.section{
+  padding: 70px 0;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.m-auto, .mx-auto{
+  margin:auto !important;
+  
+}
+.mr-auto{
+  margin-right: auto !important;
+}
+
+.mr-auto, .mx-auto {
+  margin-right: auto !important;
+}
+.img-small{
+  border-radius: 6px !important;
 }
 
