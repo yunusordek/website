@@ -16,8 +16,8 @@
   }
   .carousel-inner img {
     -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
-    width: 100%; /* Set width to 100% */
+    filter: grayscale(90%); 
+    width: 100%; 
     margin: auto;
   }
   .carousel-caption h3 {
@@ -138,30 +138,19 @@ h2{
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-weight: bold;
   margin-top:30px;
-    margin-bottom: 25px;
-    min-height: 32px;
-    color:black;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 30px;
+  margin-bottom: 25px;
+  min-height: 32px;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px;
   
     display: block;
 }
-.col-md-4 ,.col-sm-2{
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-
-
+.white{
+  color:white;
 }
-.col-md-8 {
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-}
+
 .img-desing{
  box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
@@ -199,5 +188,8 @@ p{
 }
 .img-small{
   border-radius: 6px !important;
+}
+.m-bottom{
+ margin-bottom: 15px;
 }
 
